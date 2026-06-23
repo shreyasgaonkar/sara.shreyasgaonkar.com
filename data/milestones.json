@@ -1,0 +1,125 @@
+[
+  {
+    "month": 1,
+    "title": "Hello World",
+    "date": "2025-12",
+    "milestones": [
+      "Recognizes mom and dad's voices",
+      "Sleeps like an absolute champion",
+      "Newest addition to the Linkin Park fanbase"
+    ],
+    "personality": "Sleepy, peaceful, curious eyes",
+    "moments": [
+      "First \"word\" - \"le\"",
+      "Cries like a myna bird",
+      "Keeps her legs folded up like a little frog",
+      "Loves being swaddled",
+      "Calms down to white noise"
+    ],
+    "loves": [],
+    "dislikes": []
+  },
+  {
+    "month": 2,
+    "title": "The Night Shift",
+    "date": "2026-01",
+    "milestones": [
+      "Sleep regression hits hard",
+      "Mom's night shift begins"
+    ],
+    "personality": "Spit-up queen, but still smiling through it all",
+    "moments": [
+      "Sleep regression turned the house upside down",
+      "Mom pulling night shifts like a champ",
+      "So many spit ups. So, so many.",
+      "Obsessed with the Peppa Pig helium balloon",
+      "Still fascinated by ceiling fans"
+    ],
+    "loves": [],
+    "dislikes": []
+  },
+  {
+    "month": 3,
+    "title": "Finding Her Voice",
+    "date": "2026-02",
+    "milestones": [
+      "Started cooing and babbling",
+      "Holds head up during tummy time"
+    ],
+    "personality": "Chatty in the mornings, loves eye contact",
+    "moments": [
+      "Listens to Guitar and her eyes go wide",
+      "Still fascinated by ceiling fans"
+    ],
+    "loves": [],
+    "dislikes": []
+  },
+  {
+    "month": 4,
+    "title": "Here We Go Again",
+    "date": "2026-03",
+    "milestones": [
+      "Slept 8 hours straight for 2 nights!",
+      "Likes the ukulele"
+    ],
+    "personality": "Loves water, hates sitting still",
+    "moments": [
+      "Sleep regression round two",
+      "Slept 8 hours straight for 2 glorious nights",
+      "Discovered the ukulele"
+    ],
+    "loves": [
+      "Bath time",
+      "Stroller walks with mom",
+      "Listening to dad play guitar and piano"
+    ],
+    "dislikes": [
+      "Sitting still"
+    ]
+  },
+  {
+    "month": 5,
+    "title": "Rolling & Rocking",
+    "date": "2026-04",
+    "milestones": [
+      "Rolling over and sitting up",
+      "Tried solid foods for the first time"
+    ],
+    "personality": "Smiling and laughing all day long",
+    "moments": [
+      "Rolling and sitting like a pro",
+      "Non-stop smiling and laughing",
+      "First taste of solids: apple and banana",
+      "Fade to Black is her jam"
+    ],
+    "loves": [
+      "Fade to Black (Metallica fan already)"
+    ],
+    "dislikes": [
+      "Boiled apple (betrayal in fruit form)"
+    ]
+  },
+  {
+    "month": 7,
+    "title": "On The Move",
+    "date": "2026-06",
+    "milestones": [
+      "Sitting up unassisted",
+      "Responds to her name"
+    ],
+    "personality": "Determined, giggly, grabs everything in sight",
+    "moments": [
+      "Sits on her own now",
+      "Still moving those legs non-stop",
+      "Only falls asleep with skin touching someone (as always)"
+    ],
+    "loves": [
+      "Baths",
+      "Classical music and guitar"
+    ],
+    "dislikes": [
+      "Long car rides",
+      "Anyone who dares touch her chest or face (doctors included, no exceptions)"
+    ]
+  }
+]

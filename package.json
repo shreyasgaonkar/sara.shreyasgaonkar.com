@@ -1,0 +1,17 @@
+{
+  "name": "sara",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "sass styles/main.scss styles.css --style compressed --no-source-map",
+    "watch": "chokidar 'styles/**/*.scss' -c 'npm run build:css'",
+    "serve": "browser-sync start --server --files 'styles.css' 'scripts/**/*.js' '**/*.html' 'data/*.json'",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.0",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.0",
+    "sass": "^1.77.0"
+  }
+}

@@ -1,0 +1,44 @@
+@use 'variables' as *;
+
+.traits-section {
+    margin-bottom: 60px;
+    padding-top: 10px;
+}
+
+.traits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trait-card {
+    background: $card-bg;
+    border-radius: $card-radius;
+    padding: $spacing-lg;
+    box-shadow: $card-shadow;
+    transition: transform $transition-fast, box-shadow $transition-fast;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: $card-shadow-hover;
+    }
+}
+
+.trait-emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.trait-title {
+    font-size: $font-size-lg;
+    font-weight: 700;
+    margin-bottom: $spacing-sm;
+    color: $text;
+}
+
+.trait-desc {
+    font-size: $font-size-base;
+    color: $text-light;
+    line-height: 1.5;
+}

@@ -1,0 +1,107 @@
+$cloud-color: rgba(255, 255, 255, 0.6);
+$cloud-speed: 1;  // multiplier: lower = faster, higher = slower
+$cloud-drift: -12px;
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.cloud {
+    position: absolute;
+    background: $cloud-color;
+    border-radius: 50px;
+    will-change: transform;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        background: $cloud-color;
+        border-radius: 50%;
+    }
+}
+
+.cloud-1 {
+    width: 120px;
+    height: 40px;
+    top: 20%;
+    left: 10%;
+    animation: float calc(6.5s * #{$cloud-speed}) ease-in-out infinite;
+
+    &::before {
+        width: 50px;
+        height: 50px;
+        top: -20px;
+        left: 20px;
+    }
+}
+
+.cloud-2 {
+    width: 100px;
+    height: 35px;
+    top: 30%;
+    right: 15%;
+    animation: float calc(8s * #{$cloud-speed}) ease-in-out infinite 2s;
+
+    &::before {
+        width: 40px;
+        height: 40px;
+        top: -18px;
+        left: 25px;
+    }
+}
+
+.cloud-3 {
+    width: 80px;
+    height: 30px;
+    top: 15%;
+    right: 35%;
+    animation: float calc(7s * #{$cloud-speed}) ease-in-out infinite 4s;
+
+    &::before {
+        width: 35px;
+        height: 35px;
+        top: -15px;
+        left: 15px;
+    }
+}
+
+.cloud-4 {
+    width: 60px;
+    height: 22px;
+    top: 50%;
+    left: 30%;
+    animation: float calc(10s * #{$cloud-speed}) ease-in-out infinite 1s;
+
+    &::before {
+        width: 28px;
+        height: 28px;
+        top: -12px;
+        left: 12px;
+    }
+}
+
+.cloud-5 {
+    width: 90px;
+    height: 32px;
+    top: 45%;
+    right: 8%;
+    animation: float calc(9s * #{$cloud-speed}) ease-in-out infinite 3s;
+
+    &::before {
+        width: 36px;
+        height: 36px;
+        top: -16px;
+        left: 20px;
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY($cloud-drift); }
+}

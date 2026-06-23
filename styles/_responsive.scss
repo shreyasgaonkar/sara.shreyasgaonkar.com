@@ -1,0 +1,86 @@
+@use 'variables' as *;
+
+@media (max-width: 768px) {
+    .traits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-body {
+        grid-template-columns: 1fr;
+    }
+
+    .birth-stats {
+        gap: 20px;
+        padding: 20px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 40px 20px 60px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .baby-icon {
+        font-size: 3rem;
+    }
+
+    main {
+        padding: 0 15px 40px;
+    }
+
+    .birth-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        padding: 18px 16px;
+        margin-top: -35px;
+    }
+
+    .stat-value {
+        font-size: 1rem;
+    }
+
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .growth-chart {
+        padding: 5px 10px;
+    }
+
+    .growth-svg {
+        min-height: 200px;
+        aspect-ratio: 5 / 4;
+    }
+
+    .traits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline {
+        padding-left: 30px;
+    }
+
+    .timeline::before {
+        left: 10px;
+    }
+
+    .milestone-card {
+        padding: 18px;
+    }
+
+    .milestone-card::before {
+        left: -28px;
+    }
+
+    .milestone-card {
+        opacity: 1;
+        transform: none;
+        max-height: none;
+        overflow: visible;
+    }
+}
